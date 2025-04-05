@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G.WIN - Esportowa Wspólnota</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="admin-bar">
+        <div class="admin-links">
+            <a href="#reviews">Opinie</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact">Kontakt</a>
+            <a href="regulamin.html">Regulamin</a>
+        </div>
+        <button class="admin-login">
+            <i class="icon ion-md-lock"></i>
+            Panel Organizatora
+        </button>
+    </nav>
+
+
+    <header class="hero-section">
+        <div class="hero-content">
+            <h1 class="main-title">
+                <span class="gradient-text">G.WIN</span>
+                <span class="subtitle">Esportowe Areny</span>
+            </h1>
+
+            <div class="sponsors-container">
+                <div class="sponsor-card">
+                    <img src="images/axel.png" alt="axel" class="sponsor-logo">
+                </div>
+                <div class="sponsor-card">
+                    <img src="images/outland.jpg" alt="GamingTech" class="sponsor-logo">
+                </div>
+                <div class="sponsor-card">
+                    <img src="images/steelseries.png" alt="SteelSeries" class="sponsor-logo">
+                </div>
+            </div>
+
+            <div class="scroll-indicator">
+                <div class="mouse-scroll"></div>
+                <span>Przewiń w dół</span>
+            </div>
+        </div>
+    </header>
+
+
+    <main class="main-content">
+        
+
+        <section class="about-section section-padding">
+            <div class="section-header">
+                <h2>Kim Jesteśmy?</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-card">
+                    <i class="icon ion-md-trophy"></i>
+                    <h3>Doświadczenie</h3>
+                    <p>Organizujemy turnieje od 2021 roku, przeprowadziliśmy ponad 50 profesjonalnych rozgrywek</p>
+                </div>
+                <div class="about-card">
+                    <i class="icon ion-md-people"></i>
+                    <h3>Społeczność</h3>
+                    <p>3000+ zarejestrowanych graczy i 100+ zespołów w naszej bazie</p>
+                </div>
+                <div class="about-card">
+                    <i class="icon ion-md-star"></i>
+                    <h3>Nagrody</h3>
+                    <p>Łączna pula nagród w naszych turniejach przekroczyła 7000zł</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="coming-soon-section section-padding">
+            <div class="section-header">
+                <h2>Nadchodzące Wydarzenia</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="soon-container">
+                <div class="countdown">
+                    <div class="countdown-number">30</div>
+                    <span class="countdown-label">Dni</span>
+                </div>
+                <h3 class="soon-text">Ogłaszamy nowy sezon!</h3>
+                <p>Trwają ostatnie przygotowania</p>
+            </div>
+        </section>
+
+
+        <section class="mission-section section-padding">
+            <div class="section-header">
+                <h2>Nasza Misja</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="mission-grid">
+                <div class="mission-card">
+                    <div class="mission-icon">
+                        <i class="icon ion-md-flame"></i>
+                    </div>
+                    <h3>Rozwijamy Pasję</h3>
+                    <p>Tworzymy środowisko dla prawdziwych entuzjastów CS2 – graczy, którzy chcą się rozwijać, rywalizować i budować swoją esportową przyszłość. Od 2021 roku regularnie organizujemy mecze i turnieje, oferując przestrzeń do nauki, rywalizacji i zdobywania doświadczenia w duchu fair play</p>
+                </div>
+
+                <div class="mission-card">
+                    <div class="mission-icon">
+                        <i class="icon ion-md-trending-up"></i>
+                    </div>
+                    <h3>Statystyki</h3>
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <div class="stat-number">1500+</div>
+                            <div class="stat-label">Rozegranych meczy</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">98%</div>
+                            <div class="stat-label">Zadowolonych uczestników</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="video-showcase section-padding">
+            <div class="section-header">
+                <h2>Nasze Najlepsze Momenty</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="video-grid">
+                <div class="video-card">
+                    <video class="highlight-video" controls muted poster="placeholder.jpg">
+                        <source src="highlight1.mp4" type="video/mp4">
+                        Twoja przeglądarka nie obsługuje wideo.
+                    </video>
+                    <div class="video-overlay">
+                        <i class="icon ion-md-play"></i>
+                        <h4>Finał GWIN Masters 2023</h4>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <video class="highlight-video" controls muted poster="placeholder.jpg">
+                        <source src="highlight2.mp4" type="video/mp4">
+                        Twoja przeglądarka nie obsługuje wideo.
+                    </video>
+                    <div class="video-overlay">
+                        <i class="icon ion-md-play"></i>
+                        <h4>Najlepsze Fragi Stycznia</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sekcja opinii -->
+        <section class="reviews-section section-padding" id="reviews">
+            <div class="section-header">
+                <h2>Opinie Naszych Graczy</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="player-avatar"></div>
+                        <div class="player-info">
+                            <h4>GraczCS_92</h4>
+                            <div class="rating">
+                                <i class="icon ion-md-star"></i>
+                                <i class="icon ion-md-star"></i>
+                                <i class="icon ion-md-star"></i>
+                                <i class="icon ion-md-star"></i>
+                                <i class="icon ion-md-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">Najlepsza organizacja turniejów w Polsce! Profesjonalne podejście i świetna atmosfera.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="faq-section section-padding" id="faq">
+            <div class="section-header">
+                <h2>Najczęstsze Pytania</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Jak zapisać drużynę na turniej?</span>
+                        <i class="icon ion-md-arrow-dropdown"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Rejestracja drużyny odbywa się przez nasz panel organizatora. Po zalogowaniu wybierz interesujący Cię turniej i postępuj zgodnie z instrukcjami.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="motivational-section">
+            <div class="quote-carousel">
+                <div class="quote active">
+                    <blockquote>"Wygrana to 10% umiejętności i 90% mentalnego przygotowania"</blockquote>
+                    <cite> Nasz najlepszy gracz cs:go w 2023 roku - Bomba </cite>
+                </div>
+                <div class="quote">
+                    <blockquote>"G.WIN dał mi szansę pokazania się w prawdziwej esportowej arennie"</blockquote>
+                    <cite>- Nowicjusz Roku 2023</cite>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="main-footer" id="contact">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Kontakt</h4>
+                <ul>
+                    <li><i class="icon ion-md-mail"></i> kontakt@gwin.pl</li>
+                    <li><i class="icon ion-md-call"></i> Discord: Gwin</li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Legalne</h4>
+                <ul>
+                    <li><a href="#">Regulamin</a></li>
+                    <li><a href="#">Polityka prywatności</a></li>
+                    <li><a href="#">Warunki uczestnictwa</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyright-bar">
+            <p>© 2024 G.WIN. Wszelkie prawa zastrzeżone</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
